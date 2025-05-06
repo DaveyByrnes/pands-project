@@ -26,8 +26,15 @@ print(df.tail()) # it works!
 
 summary = df.describe() # should give me the contents of the dataset
 
+# turns out it doesn't load the classes
+class_count = df['class'].value_counts()
+
 # open file
-with open("summary.text", "w") as file: # w is to write in the file
-    file.write("Summary of the Iris Dataset\n"
-    
-    
+with open("summary.txt", "w") as file: # w is to write in the file
+    file.write("Summary of the Iris Dataset\n")
+    file.write(summary.to_string()) # convert dataframe to string
+    file.write("\n\n") # creates space in text file
+    file.write("Class Distribution:\n")
+    file.write(class_count.to_string()) # success - everything is displayed
+
+
