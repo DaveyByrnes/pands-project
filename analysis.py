@@ -22,4 +22,12 @@ print(df.head())
 print("\nLast 5 rows of the data set:")
 print(df.tail()) # it works!
 
+# output the summary into a single text file
 
+summary = df.describe() # should give me the contents of the dataset
+
+# open file
+with open("summary.text", "w") as file: # w is to write in the file
+    file.write("Summary of the Iris Dataset\n"
+    
+    
