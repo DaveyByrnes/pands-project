@@ -47,4 +47,13 @@ plt.ylabel('Frequency')
 plt.savefig('sepal_length_distribution.png')
 plt.close() 
 
+# create histograms for all features
+for column in df.columns[:-1]: # negative indexing to exclude the last column (class)
+    sns.histplot(data=df, x=column, bins=10, kde=True)
+    plt.title(f'{column} Distribution')
+    plt.xlabel(column)
+    plt.ylabel('Frequency')
+    plt.savefig(f'{column}_distribution.png')
+    plt.close()
+
 

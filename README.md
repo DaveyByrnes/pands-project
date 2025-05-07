@@ -11,7 +11,7 @@ The Iris Dataset is a famous dataset made by Ronald Fisher in 1936, often used a
 - [ ] Research the dataset online and write a summary about it in your README.
 - [x] Download the dataset and add it to your repository.
 - [ ] Write a program called analysis.py that:
-  - [ ] Outputs a summary of each variable to a single text file
+  - [x] Outputs a summary of each variable to a single text file
   - [ ] Saves a histogram of each variable to .png files
   - [ ] Outputs a scatter plot of each variables
   - [ ] Performs any other analysis you think is appropriate.
