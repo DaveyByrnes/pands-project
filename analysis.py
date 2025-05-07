@@ -56,4 +56,12 @@ for column in df.columns[:-1]: # negative indexing to exclude the last column (c
     plt.savefig(f'{column}_distribution.png')
     plt.close()
 
+# create scatterplot for first pair of features
+sns.scatterplot(data=df, x='sepal_length', y='sepal_width', hue='class')
+plt.title('Sepal Length vs Sepal Width')
+plt.xlabel('Sepal Length (cm)')
+plt.ylabel('Sepal Width (cm)')
+plt.savefig('sepal_length_vs_sepal_width.png')
+plt.close()
+
 
