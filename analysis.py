@@ -64,4 +64,11 @@ plt.ylabel('Sepal Width (cm)')
 plt.savefig('sepal_length_vs_sepal_width.png')
 plt.close()
 
+# create scatterplot for second pair
+sns.scatterplot(data=df, x='petal_length', y='petal_width', hue='class')
+plt.title('Petal Length vs Petal Width')
+plt.xlabel('Petal Length (cm)')
+plt.ylabel('Petal Width (cm)')
+plt.savefig('petal_length_vs_petal_width.png')
+plt.close()
 
