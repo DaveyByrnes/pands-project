@@ -4,9 +4,7 @@
 
 Hi there, I'm David - and you're currently reading my README.md file regarding my pands-project for 2025, centered around the Iris dataset.
 
-**The Iris Dataset**
-
-The Iris Dataset is a famous dataset made by Ronald Fisher in 1936, often used as an example dataset for stastical analysis projects such as this one! I will be tackling this project based on the following perameters:
+### **Project Parameters**
 
 - [ ] Research the dataset online and write a summary about it in your README.
 - [x] Download the dataset and add it to your repository.
@@ -19,3 +17,20 @@ The Iris Dataset is a famous dataset made by Ronald Fisher in 1936, often used a
 I will also produce a Jupyter notebook containing extra comments about the process and my code that is not mentioned here. We'll start at the beginning.
 
 ## **Research**
+
+### **Introduction to the Iris Dataset**
+
+The Iris dataset was created and used by Ronald Fisher, first published in 1936 in his paper [*The use of multiple measurements in taxonomic problems*](https://lgross.utk.edu/Math589Fall2020/RAFisher1936measurementsFlowerTaxa.pdf).
+
+It was created by Fisher so that he could utilise linear discriminant analysis - a method used to find linear combinations between features of different Iris speicies. Doing this was to help Fisher identify commonanlities between the different classes an help make each feature class more distinguishable.
+
+The dataset is now famed for its use as a case study for data analytics and computer science, with a primary source of this being this very project.
+
+### **A Look at the Statistics**
+
+With this being a project weighted towards an analytical view of the dataset, it is important to look at the actual dataset itself.
+
+#### **Summary**
+
+In `analysis.py`, I created a text file which could summarise all of the various features and classes within the dataset into [summary.text](./summary.txt).
+
