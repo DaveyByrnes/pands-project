@@ -13,7 +13,7 @@ The Iris Dataset is a famous dataset made by Ronald Fisher in 1936, often used a
 - [ ] Write a program called analysis.py that:
   - [x] Outputs a summary of each variable to a single text file
   - [x] Saves a histogram of each variable to .png files
-  - [ ] Outputs a scatter plot of each variables
+  - [x] Outputs a scatter plot of each variables
   - [ ] Performs any other analysis you think is appropriate.
 
 I will also produce a Jupyter notebook containing extra comments about the process and my code that is not mentioned here. We'll start at the beginning.
