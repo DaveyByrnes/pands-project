@@ -38,6 +38,7 @@ with open("summary.txt", "w") as file: # w is to write in the file
     file.write(class_count.to_string()) # success - everything is displayed
 
 # commented out the following code to stop it running for now
+
 '''
 # plot histograms of dataset
 sns.histplot(data=df, x='sepal_length', bins=10, kde=True)

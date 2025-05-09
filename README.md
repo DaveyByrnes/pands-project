@@ -6,7 +6,7 @@ Hi there, I'm David - and you're currently reading my README.md file regarding m
 
 ### **Project Parameters**
 
-- [ ] Research the dataset online and write a summary about it in your README.
+- [x] Research the dataset online and write a summary about it in your README.
 - [x] Download the dataset and add it to your repository.
 - [ ] Write a program called analysis.py that:
   - [x] Outputs a summary of each variable to a single text file
@@ -34,3 +34,10 @@ With this being a project weighted towards an analytical view of the dataset, it
 
 In `analysis.py`, I created a text file which could summarise all of the various features and classes within the dataset into [summary.text](./summary.txt).
 
+The summary statistics are useful at a glance as it sums up most of everything I need to know about the dataset. I can see the outliers easily with the minimum and maximum, and mean and standard deviation gives me insight on where the data clustes and by how much.
+
+However - if I was to research these features in greater depth, a brief text summary of everything isn't suitable. Getting the data in a visual form can help me identify patterns easier, as differentiating patterns from raw numbers isn't intuitive to me.
+
+#### **The Basic Visuals**
+
+The first visualisation step is perhaps the most familiar to me - the histogram. I decided to generate a histogram for each feature: sepal length, sepal width, petal length and petal width. With 
