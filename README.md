@@ -58,6 +58,14 @@ The separation of the species is clear - with Setosa being predominantly shorter
 
 There is much more overlap with the sepal width - with a large cluster of all three classes between 2.5 and 3.5 cm. We can see immediately that sepal width is ineffective for discriminating between the classes - and may require better investigation alongside other features; see [scatterplots.](#scatterplots).
 
+**Petal Length:**
+
+Here is the clearest separation so far - with Setosa being clearly distinct with no overlap, and the latter classes having very little overlap. This will most likely be the best feature to distinguish between the species
+
+**Petal Width:**
+
+Observing the last of the four features, the separation here is also excellent. It seems the petal length and width seem much better suited for distinguishing the separate classes from each other. I want to create a scatterplot for the petals and the sepals to see how the features line up against each other.
+
 
 ##### **Scatterplots**
 
