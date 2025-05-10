@@ -38,10 +38,10 @@ with open("summary.txt", "w") as file: # w is to write in the file
     file.write(class_count.to_string()) # success - everything is displayed
 
 # commented out the following code to stop it running for now
-
 '''
+
 # plot histograms of dataset
-sns.histplot(data=df, x='sepal_length', bins=10, kde=True)
+sns.histplot(data=df, x='sepal_length', hue='class', bins=10, kde=True, multiple='stack')
 plt.title('Sepal Length Distribution') 
 plt.xlabel('Sepal Length (cm)')
 plt.ylabel('Frequency')
@@ -52,7 +52,7 @@ plt.close()
 
 # create histograms for all features
 for column in df.columns[:-1]: # negative indexing to exclude the last column (class)
-    sns.histplot(data=df, x=column, bins=10, kde=True)
+    sns.histplot(data=df, x=column, hue='class', bins=10, kde=True, multiple='stack')
     plt.title(f'{column} Distribution')
     plt.xlabel(column)
     plt.ylabel('Frequency')
@@ -74,7 +74,7 @@ plt.xlabel('Petal Length (cm)')
 plt.ylabel('Petal Width (cm)')
 plt.savefig('petal_length_vs_petal_width.png')
 plt.close()
-'''
+
 
 # perform any other analysis I think is appropriate
 
@@ -85,4 +85,6 @@ plot = sns.pairplot(df, hue='class')
 plot.fig.suptitle('Pairplot of Iris Dataset', y=1.02) # adjust title position
 plt.savefig('pairplot.png', bbox_inches='tight') # save the figure with tight layout
 plt.close()
+
+'''
 

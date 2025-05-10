@@ -4,6 +4,8 @@
 
 Hi there, I'm David - and you're currently reading my README.md file regarding my pands-project for 2025, centered around the Iris dataset.
 
+I am comfortable writing markdown files because I use [Obsidian](https://obsidian.md/) as one of my primary notetaking sources, both for personal use and for use throughout this college course.
+
 ### **Project Parameters**
 
 - [x] Research the dataset online and write a summary about it in your README.
@@ -40,4 +42,20 @@ However - if I was to research these features in greater depth, a brief text sum
 
 #### **The Basic Visuals**
 
-The first visualisation step is perhaps the most familiar to me - the histogram. I decided to generate a histogram for each feature: sepal length, sepal width, petal length and petal width. With 
+##### **Histograms**
+
+The first visualisation step is perhaps the most familiar to me - the histogram. I decided to generate a histogram for each feature: [sepal length](./pngs/sepal_length_distribution.png), [sepal width](./pngs/sepal_width_distribution.png), [petal length](./pngs/petal_length_distribution.png) and [petal width](./pngs/petal_width_distribution.png). These were created using the `seaborn` library.
+
+I created these so that I could visually identify the distribution shape of each of the features. This is useful as I can see how separable and identifiable each of the species are within just one feature.
+
+With these histograms, I can interpret the following for each of the features:
+
+**Sepal Length:**
+
+
+
+
+##### **Scatterplots**
+
+
+
