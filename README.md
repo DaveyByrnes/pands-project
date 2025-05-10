@@ -52,7 +52,11 @@ With these histograms, I can interpret the following for each of the features:
 
 **Sepal Length:**
 
+The separation of the species is clear - with Setosa being predominantly shorter, between 4.5 and 5.5 cm, peaking at 6.0. Versicolor is within the middle range, with slight overlap with Virginica, with the latter being the most dominant in length. This means that sepal length is okay for distinguishing Setosa as it is clearly separated, but much less useful for the other classes.
 
+**Sepal Width:**
+
+There is much more overlap with the sepal width - with a large cluster of all three classes between 2.5 and 3.5 cm. We can see immediately that sepal width is ineffective for discriminating between the classes - and may require better investigation alongside other features; see [scatterplots.](#scatterplots).
 
 
 ##### **Scatterplots**
