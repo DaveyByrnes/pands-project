@@ -77,6 +77,12 @@ The sepal comparison has much more overlap between species, particularly versico
 
 ##### **Box plots**
 
+The box plots show that Setosa has a narrow range in petal length, while Versicolor and Virginica have wider ranges. I am inclined to believe that this suggests that petal length is one of the clearest features that distinguishes between species.
 
+##### **Pairplot**
+
+The pairplot shows the dataset in its entirity and shows me how the differt features interact and are separated. Petal length and petal width are the most clear features when it comes to distinguishing between the species, a conclusion I already came to investigating throughout the project so far.
+
+Setosa is the easiest to separate, whereas Versicolor and Virginica are much more similiar, due to the overlaps that we can see in the pairplot.
 
 
