@@ -69,5 +69,14 @@ Observing the last of the four features, the separation here is also excellent. 
 
 ##### **Scatterplots**
 
+I created scatterplots contrasting two features against each other - [petal comparison](./pngs/petal_length_vs_petal_width.png) and [sepal comparison](./pngs/sepal_length_vs_sepal_width.png). 
+
+The petal comparison is visually very distinct and separates the species very well. They seemed to be grouped by class with minimal overlap. It seems that the clusters are mostly linear.
+
+The sepal comparison has much more overlap between species, particularly versicolor and virginica. Setosa remains distinct, which seems to be uniform across the dataset. The sepal comparison seems to be not as strong for separation as the petal comparison. 
+
+##### **Box plots**
+
+
 
 

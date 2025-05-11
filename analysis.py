@@ -38,8 +38,8 @@ with open("summary.txt", "w") as file: # w is to write in the file
     file.write(class_count.to_string()) # success - everything is displayed
 
 # commented out the following code to stop it running for now
-'''
 
+'''
 # plot histograms of dataset
 sns.histplot(data=df, x='sepal_length', hue='class', bins=10, kde=True, multiple='stack')
 plt.title('Sepal Length Distribution') 
@@ -85,6 +85,18 @@ plot = sns.pairplot(df, hue='class')
 plot.fig.suptitle('Pairplot of Iris Dataset', y=1.02) # adjust title position
 plt.savefig('pairplot.png', bbox_inches='tight') # save the figure with tight layout
 plt.close()
-
 '''
+# create boxplot
+sns.boxplot(data=df, x='class', y='petal_length', hue='class')
+plt.title('Boxplot of Petal Length by Class')
+plt.xlabel('Class')
+plt.ylabel('Petal Length (cm)')
+plt.savefig('boxplot_petal_length.png')
+plt.close()
+
+
+
+
+
+
 
