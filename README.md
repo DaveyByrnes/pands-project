@@ -85,4 +85,16 @@ The pairplot shows the dataset in its entirity and shows me how the differt feat
 
 Setosa is the easiest to separate, whereas Versicolor and Virginica are much more similiar, due to the overlaps that we can see in the pairplot.
 
+## **Conclusion**
+
+In my examination of the Iris dataset, a number of things became clear to me while coding the various visual graphs.
+
+The histograms provided an early insight into the fact that the petal length and width were clearly separated - and that Setosa was easily distinguishable. Sepal length and width was less useful with the amount of overlap that was presented, but all data is useful data.
+
+The scatterplots showed a direct relationship between paired features. Again, Setosa was the most distinct when it came to the petal comparison, with both Versicolor and Virginica having a small bit of overlap. Again, the sepal comparison had much more overlap with the latter species, making it a poorly distinguished feature.
+
+The boxplot was my final confirmation that Setosa had the most narrow range of features - indicating that Setosa was the most reliable species to analyse were I examining this dataset in much greater detail.
+
+The pairplot I find fitting to end the analysis as it provides an overhead view of the entire dataset into one graph, showing the interaction between the different features. Setosa, as stated before, was by far the easiest to separate and identify, whereas the other classes continued to overlap throughout the other features.
+
 
