@@ -10,11 +10,11 @@ I am comfortable writing markdown files because I use [Obsidian](https://obsidia
 
 - [x] Research the dataset online and write a summary about it in your README.
 - [x] Download the dataset and add it to your repository.
-- [ ] Write a program called analysis.py that:
+- [x] Write a program called analysis.py that:
   - [x] Outputs a summary of each variable to a single text file
   - [x] Saves a histogram of each variable to .png files
   - [x] Outputs a scatter plot of each variables
-  - [ ] Performs any other analysis you think is appropriate.
+  - [x] Performs any other analysis you think is appropriate.
 
 I will also produce a Jupyter notebook containing extra comments about the process and my code that is not mentioned here. We'll start at the beginning.
 
